@@ -4,68 +4,248 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi portfolio</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="stylesheet-Prueba-Bootstrap.css" rel="stylesheet">
+    
 
     <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 <body>
     <header id="mainheader">
         <nav id="navbar">
-            <div class="container">
-                <a href="https://argentinaprograma.inti.gob.ar" class="logo"><img src="img/Argentina_programa_logo.png" alt="">
+            <div>
+                <!--<h1>hola</h1>
+                -->
+                <a href="https://argentinaprograma.inti.gob.ar" class="logo"><img src="img/Argentina_programa_logo.png" alt="Argentina programa">
                 </a>
                 
                 <ul>
-                    <li><a href="">redes</a> </li>
-                    <li><a href="">LOGIN</a> </li>
+                    <li><a href="" ><img class="logo-red" src="img/facebook_icon.png" alt="facebook"></a> </li>
+                    <li><a href="https://www.instagram.com/raul.south/" ><img src="img/instagram_icon.png" alt="instagram"></a> </li>
+                    <li><a href="https://www.instagram.com/raul.south"><button type="button" class="btn btn-outline-secondary">ingresá</button></a> </li>
                 </ul>
+            
+                
             </div>
         </nav>
 
 
     </header>
 
-    <section id="acerca_de">
+    
+    <!--<section id="perfil-img">    
+        <div class="conteiner">
+            <img src="img/adrien-olichon-RCAhiGJsUUE-unsplash.jpg">
+            
+            <img class="img-thumbnail" src="img/indice.jpg" >
+                 
+            
+            
+        </div>
+    
+    </section>
+    -->
+    
+
+
+        <section id="acerca_de">
         <div class="container">
-            <h2>Acerca de</h2>
+            
+            <section id="perfil-img">    
+                <div class="conteiner">
+                    <!--<img src="img/adrien-olichon-RCAhiGJsUUE-unsplash.jpg">-->
+                    
+                    <img class="img-thumbnail" src="img/indice.jpg" >
+                    <a href="#"><!--<img id="btn-edit" src="img/pen_edit_modify_icon_149414.png" alt="edit">--></a>
+                         
+                    
+                    
+                </div>
+                
+
+                         
+            </section>
+
+            <!--<script>
+
+                function cambiar_parrafo(){
+                    document.getElementById("edit-acercade").style.display="block";
+                    let texto = document.getElementById("text-acercade").innerText;
+                    console.log(texto);
+                };
+                function myFuncion2(valor){
+                    document.getElementById("tex-acercade").innerText = valor;
+
+                };
+
+                let textarea-document.getElementById("edit-acercade")
+                textarea.addEventListener('keyup', (e) => {
+                    logMessage('key "$(e.key)"released [event: keyup]');
+                    if (e.key=="Enter") {
+                        document.getElementById("edit-acercade").style.display="none"
+                    }
+                    });
+            </script>-->
+
+            
+            <div class="acerca_de_row"> 
+
+                <div class="acerca_de_row_informacion">
+                    <!--<h2 class="acerca">Portfolio personal</h2>-->
+                    <p class="large">Raúl Bernal</p>
+                    <p>Desarrollador full stack developer Jr</p>
+                </div>
+
+                <div class="acerca_de_row_resumen">
+                  
+                    <table class="table table-borderless">
+                        
+                        <tbody>
+                          <tr>
+                            
+                            <td><h2 id="titulo">acerca de mi</h2>   </td>
+                            <td><div class="btn-edit"><a href="https://www.google.com/" class="btn-right"><i class="fa fa-pen"></i></a></div></td>
+                          </tr>
+                          
+                        </tbody>
+                      </table>
+
+                                            
+                    <div>
+                    <p id="tex-acercade">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut ratione maxime porro voluptate laboriosam iste, blanditiis impedit, nam nisi illum aliquam quasi! Eaque sunt consequuntur quisquam vel quo totam reiciendis.</p>
+                    </div>
+
+                    <div>
+                        <input id="edit-acercade" type="text" oninput="myFunction2(this.value)" style="display:none">
+                    </div>
+                    
+
+                </div>
+                
+            </div>
         </div>
     </section>
 
-    <section id="experiencia">
+       
+
+    <!--<section id="experiencia">
         <div class="container">
             <h2>Experiencia</h2>
-                <div class="expereiencia-row">
+                <div class="experiencia_row">
                     <div class="experiencia-row-fotos">
+                        <a href="https://www.argentina.gob.ar/senasa"><img class="ex-logo" src="img/logo_senasa_png-01.png" alt="SENASA"></a>
+                        <a href="https://www.fcal.uner.edu.ar"><img class="ex-logo" src="img/logo-uner.png" alt="UNER"></a>
+                        <a href="https://www.agroberries.cl/"><img class="ex-logo" src="img/Agroberries_SA.png" alt="AGROBERRIES SA"></a>
 
                     </div>
                     <div class="experiencia-row-lista">
-                        <p>computacion</p>
-                        <p>laboratorio</p>
+                        <h4 class="experiencia">SENASA</h4>
+                            <p>Prácticas en reconocimiento de enfermedades de plantaciones de citrus. Manejo de GPS.</p>
+                        <h4 class="experiencia">UNER</h4>
+                            <p>Laboratorio de Análisis de Alimentos, Facultad de Ciencias de la Alimentación, UNER </p>
+                        <h4 class="experiencia">AGROBERRIES SA</h4>
+                        <p>Control de calidad</p>
                     </div>
                     
                 
                 </div>   
         </div>
+    </section>-->
+
+
+    <section id="experiencia">
+        <div class="container">
+
+            <table class="table table-borderless">
+                        
+                <tbody>
+                  <tr>
+                    
+                    <td><h2 id="titulo">acerca de mi</h2>   </td>
+                    <td><div class="btn-edit"><a href="https://www.google.com/" class="btn-right"><i class="fa fa-pen"></i></a></div></td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+
+
+            <h2>Experiencia</h2>
+                <div class="experiencia_row">
+                    <div class="experiencia-row-fotos">
+                        <a href="https://www.argentina.gob.ar/senasa"><img class="ex-logo" src="img/logo_senasa_png-01.png" alt="SENASA"></a>
+                        
+
+                    </div>
+                    <div class="experiencia-row-lista">
+                        <h4 class="experiencia">SENASA</h4>
+                                <p>Prácticas en reconocimiento de enfermedades de plantaciones de citrus. Manejo de GPS.</p>
+                    </div>
+                </div>
+
+                <div class="experiencia_row">
+                    <div class="experiencia-row-fotos">
+                            <a href="https://www.fcal.uner.edu.ar"><img class="ex-logo" src="img/logo-uner.png" alt="UNER"></a>
+                            
+                    </div>
+
+                    <div class="experiencia-row-lista">
+                            <h4 class="experiencia">UNER</h4>
+                            <p>Laboratorio de Análisis de Alimentos, Facultad de Ciencias de la Alimentación, UNER </p>
+                    </div>
+                    
+                </div>
+
+                <div class="experiencia_row">
+                    <div class="experiencia-row-fotos">
+                            <a href="https://www.agroberries.cl/"><img class="ex-logo" src="img/Agroberries_SA.png" alt="AGROBERRIES SA"></a>
+                            
+                    </div>
+                    <div class="experiencia-row-lista">
+                            <h4 class="experiencia">AGROBERRIES SA</h4>
+                                <p>Control de calidad</p>
+                </div>
+            </div>       
+                
+                   
+        </div>
     </section>
+    
+
+
 
     <section id="educacion">
         <div class="container">
             <h2>Educación</h>
         </div>
     </section>   
-        
-    <div class="grid-layout">
-        <div class="caja c1">Ver1 </div>
-        <div class="caja c2">Ver2 </div>
-        <div class="caja c3">
-            <a href="#!" class="btn btn-primary">LOGING</a>
+
+
+    <section id="contacto">
+        <div class="container">
+            <h2>Contacto</h2>
+            <div class="contacto-row-icon"> </div>
+                <img src="http://placehold.it/" alt="webmail">
+                    <p>raulsouth@gmail.com</p>
+
         </div>
-        <div class="caja c4">caja con foto </div>
-        <div class="caja c5">ver5</div>
+
+    </section>
 
 
 
-    </div>
+    <footer id="mainfooter">
+
+
+
+    </footer>
+        
+    
+
+
+    
 
 
 

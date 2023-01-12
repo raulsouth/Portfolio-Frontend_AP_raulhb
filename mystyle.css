@@ -12,6 +12,15 @@ h2 {
    font-size: 1.8rem;
    text-align: center;
    text-transform: uppercase;
+   /*padding-top: 20px;*/
+   
+   margin-bottom: 0px;
+}
+
+
+h4 {
+   font-size: 1.3rem;
+   text-transform: uppercase;
 }
 
 p {
@@ -20,73 +29,286 @@ p {
    line-height: 1.7em;
 }
 
-
-
 .container {
    margin: auto;
-   padding: auto;
+   /*padding: 0 20px;*/
+   /*max-width: 1200px;*/
+   max-width: 98%;
+   overflow: auto;
+   border: solid 1px;
+   border-radius: 20px;
+   padding: 0px;
+
+      
 }
+
+.large {
+   font-size: 20px;
+
+}
+
+.table-borderless {
+   margin-top: 25px;
+}
+
+/*Boton de edición*/
+.btn-edit {
+   background-image:url('/img/pen_edit_modify_icon_149414.png');
+   background-repeat: no-repeat;
+   height: 25px;
+   width: 25px;
+
+   background-size: 25px 25px;
+   background-position: center;
+   /*background-size: cover;*/
+   margin-left: 20px;
+   margin-top: 5px;
+   
+   
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.btn-right {
+background-image: url('/img/indice.jpg');
+background-repeat: no-repeat;
+background-position: center;
+width: 25px; height: 25px;
+background-size: cover;
+
+}*/
+
+
 
 /*navbar*/
+
 #navbar {
    overflow: auto;
-   padding-top: 10px;
-   padding-bottom: 20px;
-
-#navbar h1 {
-   float:cenet;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   align-items: flex-end;
 }
 
-}
+/*#navbar h1 {
+   text-align: center;
+   
+}*/
+
 
 #navbar .logo {
    float: left;
-   padding-top: 20px;
-
+   padding-left: 25px;
+      
 }
+
+
 
 #navbar ul {
    list-style: none;
    float: right;
+   padding-right: 25px;
+   
+   
+   
 }
+
 
 #navbar ul li {
    float: left;
+ 
+}
+
+#navbar ul li a {
+   display: block;
+   padding: 10px;
+}
+
+#navbar ul li img {
+   width: 40px;
+ }
+
+ #navbar button {
+   margin: 5px;
+   padding: 5px;
+ }
+
+/*Foto de fondo y de perfil*/
+#perfil-img {
+   background: url('/img/michael-dziedzic-aQYgUYwnCsM-unsplash.jpg');
+   height: 250px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   
+   
+   
+}
+
+#perfil-img .img-thumbnail {
+   float: flex;
+   margin-top: 200px;
+   margin-left: 50px;
+   width: 200px;
+   /height: 30px;
 
 }
 
-#navbar ul a {
-   padding: 20px;
-   text-align: center;
+#perfil-img #btn-edit {
+   margin-top: 300px;
 }
 
 
- .grid-layout {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    
- }
+/*Acerca de */
+#acerca_de {
+   /*padding-top: 10px;*/
+   /*background: #f9f9f9;*/
+}
 
- .caja {
-    
-    /height: 150px;
-    border: 1px solid black;
-    background: lightgray;
-    /margin: 15px;
+*#acerca_de .container {
+   background: #f9f9f9;
+}
 
- }
+.acerca_de_row {
+   padding-top: 90px;
+   display: flex;
 
- .c3 {
-    
- }
+}
 
- .c4 {
-    grid-column: 1/4;
+.acerca_de_row_informacion, .acerca_de_row_resumen {
+   width: 50%;
+   padding-left: auto;
+   
+} 
 
- }
+.acerca_de_row_resumen h2 {
+   text-align: left;
+   /*float: left;*/
+}
 
- .c5 {
-    grid-column: 1/4;
 
- }
+
+
+
+.acerca_de_row_informacion p {
+   text-align:left;
+   margin-left: 65px;
+}
+
+.acerca_de_row_resumen p {
+   text-align: left;
+
+}
+
+.acerca_de_row_resumen .card-body {
+   padding-top: 0px;
+   padding-bottom: 0px;
+   width: max-content;
+   padding-left: 0px;
+   padding-right: 0px;
+   
+}
+
+h2 .card-title {
+   padding: 0px 0px 0px;
+}
+
+.card-group {
+   display: flex;
+   
+}
+
+.acerca_de_row_resumen table {
+   padding-top:  0px;
+   padding-bottom: 0px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+
+}
+
+
+
+/*Experiencia*/
+#experiencia {
+   padding-top: 10px;
+}
+
+#experiencia .container {
+   background-color: rgba(255, 0, 242, 0.363);
+   bac
+}
+
+.experiencia_row {
+   display: flex;
+
+
+}
+
+.experiencia-row-fotos .ex-logo {
+   display:block;
+   /*padding: 10px;*/
+   height: 25px;
+   
+
+   padding-left: 5px;
+   margin-top: 20px;
+   margin-bottom: 50px;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+
+
+
+
+
+
+.experiencia-row-lista {
+   text-align: left;
+   padding-left: 0px;
+}
+
+.experiencia-row-lista h4 {
+   margin-bottom:0%;
+}
+.experiencia-row-lista p {
+   margin-top: 0%;
+}
+
+.experiencia-row-fotos, .experiencia-row-lista {
+   width: 50%;
+}
+
+/*Educación*/
+#educacion {
+   padding-top: 10px;
+}
+
+#educacion .container {
+   background-color: beige;
+}
+
+
+
+
+
+
+/*Contacto*/
+#contacto {
+   padding-top: 10px;
+   }
+
+#contacto .container {
+   background-color: aqua;
+}
