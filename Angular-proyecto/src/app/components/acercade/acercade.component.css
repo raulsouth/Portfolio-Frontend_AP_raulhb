@@ -1,0 +1,21 @@
+.row {
+    padding: 20px;
+}
+
+div {
+    background-color:blanchedalmond;
+    text-align: center;
+}
+
+.conteiner {
+    background-color: blanchedalmond;
+
+}
+
+
+
+/*estilo nombre*/
+.nombre {
+    font-weight: bold;
+}
+
