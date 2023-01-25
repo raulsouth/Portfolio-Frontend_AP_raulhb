@@ -5,17 +5,50 @@
 div {
     background-color:blanchedalmond;
     text-align: center;
-}
-
-.conteiner {
-    background-color: blanchedalmond;
-
+    margin: 0%;
+    
 }
 
 
 
-/*estilo nombre*/
+
+/*Nombre de perfl*/
 .nombre {
     font-weight: bold;
+    margin-top: 60%;
+}
+
+/*Foto de perfil: cambios en la posición y de tamaño
+segun el tamaño de pantalla*/
+
+@media (min-width: 576px) {
+    #foto-perfil {
+        position: absolute;
+        width: 15%;
+        border-radius: 5%;
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+        left: 25px;
+        top: 325px;
+        
+
+    }
+
+}
+
+@media (max-width: 575px) {
+    #foto-perfil {
+        position: absolute;
+        width: 30%;
+        border-radius: 5%;
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+        /*left: 25px;*/
+        top: 325px;
+       
+        
+
+    }
+
 }
 
