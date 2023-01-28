@@ -39,15 +39,17 @@ segun el tamaño de pantalla*/
 @media (max-width: 575px) {
     #foto-perfil {
         position: absolute;
-        width: 30%;
+        width: 40%;
         border-radius: 5%;
         border-style: solid;
         border-color: rgb(255, 255, 255);
-        /*left: 25px;*/
-        top: 325px;
-       
-        
-
+        top: 300px;
+        left: 31%;
+      
+    }
+    /*corregir posición de nombre*/        
+    .nombre {
+        margin-top: 45%;
     }
 
 }
