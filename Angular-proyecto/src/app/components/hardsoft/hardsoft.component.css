@@ -1,4 +1,18 @@
 .row {
     background-color: rgb(217, 123, 241);
     padding: 20px;
+    margin: 0%;
 }
+
+.cicle {
+    text-align: center;
+}
+
+#equipo {
+    background-image: url('../../../assets/img/equipo.png');
+    background-repeat: no-repeat;
+    background-position: 50% 75%;
+    background-size: 50px;
+       
+}
+
