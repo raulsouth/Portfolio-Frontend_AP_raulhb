@@ -11,8 +11,28 @@
 #equipo {
     background-image: url('../../../assets/img/equipo.png');
     background-repeat: no-repeat;
-    background-position: 50% 75%;
+    background-position: 50% 74%;
     background-size: 50px;
        
+}
+#html {
+    background-image: url('../../../assets/img/html.png');
+    background-repeat: no-repeat;
+    background-position: 50% 74%;
+    background-size: 50px;  
+}
+
+#css {
+    background-image: url('../../../assets/img/css.png');
+    background-repeat: no-repeat;
+    background-position: 50% 74%;
+    background-size: 50px;  
+}
+
+#js {
+    background-image: url('../../../assets/img/javascript.png');
+    background-repeat: no-repeat;
+    background-position: 50% 74%;
+    background-size: 50px;  
 }
 
