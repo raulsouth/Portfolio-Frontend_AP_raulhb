@@ -19,27 +19,34 @@
     background-image: url('../../../assets/img/html_icon.png');
     background-repeat: no-repeat;
     background-position: 50% 75%;
-    background-size: 50px;  
+    background-size: 50px;
 }
 
 #css {
     background-image: url('../../../assets/img/css_icon.png');
     background-repeat: no-repeat;
     background-position: 50% 75%;
-    background-size: 50px;  
+    background-size: 50px;
 }
 
 #js {
     background-image: url('../../../assets/img/js-icon.png');
     background-repeat: no-repeat;
     background-position: 50% 75%;
-    background-size: 50px;  
+    background-size: 50px;
 }
 
 #compromiso {
     background-image: url('../../../assets/img/hand_icon.png');
     background-repeat: no-repeat;
     background-position: 50% 75%;
-    background-size: 50px;  
+    background-size: 50px;
+}
+
+#res-problem {
+    background-image: url('../../../assets/img/solution_icon.png');
+    background-repeat: no-repeat;
+    background-position: 50% 75%;
+    background-size: 50px;
 }
 
