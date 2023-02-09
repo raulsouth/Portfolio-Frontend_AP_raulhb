@@ -8,13 +8,6 @@
     text-align: center;
 }
 
-#equipo {
-    background-image: url('../../../assets/img/equipo.png');
-    background-repeat: no-repeat;
-    background-position: 50% 73%;
-    background-size: 50px;
-       
-}
 #html {
     background-image: url('../../../assets/img/html_icon.png');
     background-repeat: no-repeat;
@@ -34,6 +27,14 @@
     background-repeat: no-repeat;
     background-position: 50% 75%;
     background-size: 50px;
+}
+
+#equipo {
+    background-image: url('../../../assets/img/equipo.png');
+    background-repeat: no-repeat;
+    background-position: 50% 73%;
+    background-size: 50px;
+       
 }
 
 #compromiso {
