@@ -1,7 +1,10 @@
 div {
 background-color:gray;
 overflow: auto;
+}
 
+.navbar-brand {
+    padding: 0%;
 }
 
 .logo-red {
