@@ -2,13 +2,27 @@ div {
 background-color:gray;
 overflow: auto;
 
-
 }
 
+.logo-red {
+    width: 50px;
+    padding: 5px; 
+}
 
+.navbar {
+    padding: 0%;
+}
 
-app-red-social {
-    float: right;
-    margin-top: 20px;
-    margin-right: 20px;
+.link {
+    padding-right: 10px;
+}
+
+/*Banner: propiedades del fondo*/
+#fondo-banner {
+
+    background-image: url('../../../assets/img/Fondo-perfil.png');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }

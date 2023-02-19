@@ -7,7 +7,6 @@ import { HeaderComponent } from './components/header/header.component';
 import { LogoArProgramaComponent } from './components/logo-ar-programa/logo-ar-programa.component';
 import { AcercadeComponent } from './components/acercade/acercade.component';
 import { RedSocialComponent } from './components/red-social/red-social.component';
-import { BannerComponent } from './components/banner/banner.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 // Import ng-circle-progress
@@ -23,7 +22,6 @@ import { FooterComponent } from './components/footer/footer.component';
     LogoArProgramaComponent,
     AcercadeComponent,
     RedSocialComponent,
-    BannerComponent,
     ExperienciaComponent,
     EducacionComponent,
     HardsoftComponent,
