@@ -1,6 +1,11 @@
 div {
-background-color:gray;
+/*background-color:gray;*/
 overflow: auto;
+}
+
+.container-fluid {
+    background-color:gray;/*para que el Modal no se
+    afecte por el color de fondo*/
 }
 
 .navbar-brand {
@@ -9,7 +14,7 @@ overflow: auto;
 
 .logo-red {
     width: 50px;
-    padding: 5px; 
+    padding: 5px;
 }
 
 .navbar {
@@ -29,3 +34,18 @@ overflow: auto;
     background-position: center;
     background-size: cover;
 }
+
+/*Botón Ingresar*/
+.btn-outline-secondary {
+    --bs-btn-color: #e9ecef;
+    --bs-btn-border-color: #e9ecef;
+}
+
+/*Propiedades de link red*/
+.logo-red:hover {
+    opacity: .4;
+    border: solid 1px;
+    border-radius: 100%;
+    border-color: #ffffffa6;
+}
+
