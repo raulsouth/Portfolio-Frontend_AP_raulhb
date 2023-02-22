@@ -35,6 +35,13 @@ overflow: auto;
     background-size: cover;
 }
 
+#fondo-banner h1 {
+    text-align: center;
+    color: rgb(226, 167, 90);
+    font-size: 6rem;
+    padding-top: 7%;
+}
+
 /*Botón Ingresar*/
 .btn-outline-secondary {
     --bs-btn-color: #e9ecef;
